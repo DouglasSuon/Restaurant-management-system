@@ -1,0 +1,257 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>order<rp></rp>系统 人机交互</title>
+  <link href="../css/style1.css"  rel="stylesheet"  media="screen"  type="text/css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/carts.css">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery.dialog.js"></script>
+  <script src="../js/carts.js"></script>
+  <script src="../js/universial.js"></script>
+  <style type="text/css">a {text-decoration: none}</style>
+</head>
+<div>
+    <div  class="nav_bg">
+        <div class="wrap"> 
+            <ul id="nav" class="nav clearfix">
+                <li class="nLi" style="font-size: 16px;">
+                    <h3 class="e"><a  href="#" style="font-size: 16px;">Nitya's Restaurant</a></h3>
+                </li>
+                <li class="nLi">
+                  <h3 class="d"><a  href="./index.html">Home</a></h3>
+                </li>
+                <li class="nLi ">
+                  <h3 class="d"><a href="myorder.html">My order</a></h3>
+                  
+                </li>
+          
+                <li class="nLi ">
+                  <h3 class="d"><a href="order-statistic.html">Order statistic</a></h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="left" >
+            <ul class="leftborder">
+    
+
+              
+            <li class="border2clicked">
+                <a href="./today.html">
+                    <img src='../images/remaicaipin.png' width=14 height=14 />
+                    <span class="outer">Food</span>
+                    
+                </a>
+            </li>
+            <li class="border3">
+                <a href="./recommend.html">
+                    <img src='../images/tuijian.png' width=14 height=14 />
+                    <span class="outer">Recommend</span>
+                </a>
+            </li>
+            <li class="border4">
+                <a href="./hot.html">
+                    <img src='../images/menu.png' width=14 height=14 />
+                    <span class="outer">Hot food</span>
+                </a>
+            </li>
+            <li class="border5">
+                    <a href="./selected.html">
+                        <img src='../images/today.png' width=14 height=14 />
+                        <span class="outer">Selected food</span>
+                        
+                    </a>
+            </li>
+            <li class="border1">
+                <a href="myorder.html">
+                    <img src='../images/dingdan.png' width=14 height=14 />
+                    <span class="outer">My order</span>
+                    <br>
+                    <br>
+                    <img src='../images/dingdan.png' width=14 height=14 />
+                      <span class="outer">History</span>
+                    
+                </a>
+            </li>    
+                         
+            </ul>
+    </div>
+  
+</div>
+<p style="font-size: 16px;  position: absolute; top:9.9%; left:48.5%;text-align: center;"><b>Today's Food</b></p>
+<div class="projects">
+    <!-- <br>
+    <p style="font-size: 15px; width:300px;background-color: silver;text-align: center;" >今日菜品</p> -->
+    <ul class="rightborder">
+        <!-- <p style="font-size: 16px;  background-color: rgb(251, 255, 0);text-align: center;">当天菜品</p> -->
+        <li class="instruct">
+            <span style="padding:0px 136px 0 40px;position: relative ;top:25%;"><b>Picture</b> </span>
+            <span style="padding:0px 126px 0 0;position: relative ;top:25%;"><b>Name</b> </span>
+            <span style="padding:0px 95px 0 30px;position: relative ;top:25%;"><b>Description</b> </span>
+            <span style="padding:0px 28px 0 0;position: relative ;top:25%;"><b>Amount</b> </span>
+            <span style="padding:0px 77px 0 0;position: relative ;top:25%;"><b>Rate</b> </span>
+            <span style="padding:0px 0px 0 0;position: relative ;top:25%;"><b>Operation</b></span>
+        </li>
+        <div class="cont">
+        <li class="dishes" id="first">
+            <img src='../images/jiachang.jpg' width=136px height=80px />
+            <span id="one">Home-cooked meat and vegetable set meal </span>          
+            <span id="two">Slightly spicy, carefully cooked with homemade dishes such as pork and cauliflower</span>
+            <span id="three">14(元) </span>
+            <span id="four">9星</span>
+            <span id="five">
+                <button class="inn" id="order1">Order<rp></rp></button>
+                
+            </span>
+            <span id="six">
+                    <button class="inn" id="rate1">Rate</button>
+            </span>
+            
+        </li>
+        <li class="dishes" id="second">
+                <img src='../images/duojiaoyutou.jpg' width=136px height=80px />
+                <span id="one">Chopped Pepper Fish Head </span>              
+                <span id="two">Spicy, made from fresh carp</span>
+                <span id="three">88(元) </span>
+                <span id="four">8星</span>
+                <span id="five">
+                        <button class="inn" id="order2">Order<rp></rp></button>
+                        
+                    </span>
+                <span id="six">
+                    <button class="inn" id="rate2">Rate</button>
+                </span>
+                
+            </li>
+            <li class="dishes" id="third">
+                    <img src='../images/hongshaochaocai.jpg' width=136px height=80px />
+                    <span id="one">Stir-fry with Braised Pork </span>                  
+                    <span id="two">Not spicy, cooked with braised pork and special sauce</span>
+                    <span id="three">15(元) </span>
+                    <span id="four">8星</span>
+                    <span id="five">
+                            <button class="inn" id="order3">Order<rp></rp></button>
+                            
+                    </span>
+                    <span id="six">
+                            <button class="inn" id="rate3">Rate</button>
+                    </span>
+                    
+                </li>
+                <li class="dishes" id="fourth">
+                        <img src='../images/huiguochaocai.jpg' width=136px height=80px />
+                        <span id="one">Twice-cooked pork stir-fry </span>                       
+                        <span id="two">Slightly spicy, twice-cooked pork and small rapeseed</span>
+                        <span id="three">13(元) </span>
+                        <span id="four">8星</span>
+                        <span id="five">
+                                <button class="inn" id="order4">Order<rp></rp></button>
+                                
+                            </span>
+                        <span id="six">
+                                <button class="inn" id="rate4">Rate</button>
+                        </span>
+                        
+                    </li>
+                    <li class="dishes" id="fifth">
+                            <img src='../images/yuxiangrousi.jpg' width=136px height=80px />
+                            <span id="one">Yuxiang Pork</span>                           
+                            <span id="two">Both hot and sour, good taste</span>
+                            <span id="three">18(元) </span>
+                            <span id="four">9星</span>
+                            <span id="five">
+                                    <button class="inn" id="order5">Order<rp></rp></button>
+                                    
+                            </span>
+                            <span id="six">
+                                <button class="inn" id="rate5">Rate</button>
+                            </span>
+                            
+                        </li>
+                        <li class="dishes" id="sixth">
+                                <img src='../images/shuijiao.jpg' width=136px height=80px />
+                                <span id="one">Special dumplings </span>                               
+                                <span id="two">Flavors: chives, eggs, pork onions</span>
+                                <span id="three">11(元) </span>
+                                <span id="four">9星</span>
+                                <span id="five">
+                                        <button class="inn" id="order6">Order<rp></rp></button>
+                                        
+                                    </span>
+                                    <span id="six">
+                                            <button class="inn" id="rate6">Rate</button>
+                                    </span>
+                                
+                            </li>
+                            <li class="dishes" id="seventh">
+                                    <img src='../images/huiguochaocai.jpg' width=136px height=80px />
+                                    <span id="one">Twice-cooked pork stir-fry </span>                                 
+                                    <span id="two">Slightly spicy, twice-cooked pork and small rapeseed</span>
+                                    <span id="three">13(元) </span>
+                                    <span id="four">8星</span>
+                                    <span id="five">
+                                            <button class="inn" id="order7">Order<rp></rp></button>
+                                            
+                                        </span>
+                                        <span id="six">
+                                                <button class="inn" id="rate7">Rate</button>
+                                        </span>
+                                    
+                                </li>
+                            
+                            <li class="dishes" id="eighth">
+                                <img src='../images/dandanmian.jpg' width=136px height=80px />
+                                <span id="one">Dan dan noodles </span>                              
+                                <span id="two">Salty and slightly spicy, specialty pasta snacks, thin noodles, mellow marinade</span>
+                                <span id="three">9(元)</span>
+                                <span id="four">8星</span>
+                                <span id="five">
+                                        <button class="inn" id="order8">Order<rp></rp></button>
+                                        
+                                    </span>
+                                    <span id="six">
+                                            <button class="inn" id="rate8">Rate</button>
+                                    </span>
+                                
+                            </li>
+                            <li class="dishes" id="ninth">
+                                <img src='../images/qingjiaoyumi.jpg' width=136px height=80px />
+                                <span id="one">Green pepper corn</span>                               
+                                <span id="two">Light taste, fresh and vegetarian home cooking</span>
+                                <span id="three">10(元) </span>
+                                <span id="four">8星</span>
+                                <span id="five">
+                                        <button class="inn" id="order9">Order<rp></rp></button>
+                                        
+                                    </span>
+                                    <span id="six">
+                                            <button class="inn" id="rate9">Rate</button>
+                                    </span>
+                                
+                            </li>
+                            <li class="dishes" id="tenth">
+                                <img src='../images/huiguorou.jpg' width=136px height=80px />
+                                <span id="one">Twice cooked pork</span>                              
+                                <span id="two">The taste is heavy, it is made by stir-frying pork rump, green pepper and garlic sprouts</span>
+                                <span id="three">18(元) </span>
+                                <span id="four">9星</span>
+                                <span id="five">
+                                        <button class="inn" id="order10">Order<rp></rp></button>
+                                        
+                                    </span>
+                                    <span id="six">
+                                            <button class="inn" id="rate10">Rate</button>
+                                    </span>
+                                
+                            </li>
+                        </div>
+                        
+                        
+     
+
+             
+                     
+    </ul>
+</div>
+<script src="../js/universial.js"></script>
