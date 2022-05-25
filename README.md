@@ -1,6 +1,6 @@
 # Restaurant-management-system
 # Introduction
-![GaussianOstrum's GitHub stats](https://github-readme-stats.vercel.app/api?username=NityaGates&show_icons=true&theme=radical)
+![GaussianOstrum's GitHub stats](https://github-readme-stats.vercel.app/api?username=GaussianOstrum&show_icons=true&theme=radical)
 
 The *Web ordering system* is to provide the cafeteria with the next day's dishes as a reference. It is used ```HTML5 + CSS3 + JS(jQuery)```for front-end development . The database uses the local database WebSQL , and does not use back-end development. The system implements the following basic functions:<br />
 
